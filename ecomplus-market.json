@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "",
-    "short_description": "",
-    "category": "tools"
+    "title": "EasyCourier",
+    "short_description": "Geração, rastreio e monitoração de postagens via Correios",
+    "category": "shipping"
   }
 }
