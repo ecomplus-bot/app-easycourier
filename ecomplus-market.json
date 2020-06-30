@@ -2,6 +2,7 @@
   "app": {
     "title": "EasyCourier",
     "short_description": "Geração, rastreio e monitoração de postagens via Correios",
-    "category": "shipping"
+    "category": "shipping",
+    "redirect_uri": "https://easycourier.com.br/restrito/cadastro"
   }
 }
