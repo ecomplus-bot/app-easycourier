@@ -1,7 +1,7 @@
 {
   "app_id": 100252,
-  "title": "My Awesome E-Com Plus App",
-  "slug": "ecomplus-app-easycourrier",
+  "title": "EasyCourier",
+  "slug": "easycourier",
   "type": "external",
   "state": "active",
   "authentication": true,
@@ -17,9 +17,14 @@
     "brands": [],
     "categories": [],
     "customers": [],
-    "orders": [],
+    "orders": [
+      "GET",
+      "PATCH"
+    ],
     "carts": [],
-    "orders/fulfillments": [],
+    "orders/fulfillments": [
+      "POST"
+    ],
     "orders/payments_history": [],
     "products/quantity": [],
     "products/variations/quantity": [],
