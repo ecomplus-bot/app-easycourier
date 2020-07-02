@@ -27,6 +27,7 @@
     ],
     "orders/payments_history": [],
     "orders/shipping_lines": [
+      "GET",
       "PATCH"
     ],
     "products/quantity": [],
