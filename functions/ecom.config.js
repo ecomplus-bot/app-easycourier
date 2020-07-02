@@ -110,7 +110,8 @@ const app = {
       // 'DELETE',        // Delete payments history entry
     ],
     'orders/shipping_lines': [
-      'PATCH',            // Edit order shipping line object
+      'GET',              // List/read order shipping lines
+      'PATCH',            // Edit order shipping line nested object
     ],
 
     /**
