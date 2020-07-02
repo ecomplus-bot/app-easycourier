@@ -26,6 +26,9 @@
       "POST"
     ],
     "orders/payments_history": [],
+    "orders/shipping_lines": [
+      "PATCH"
+    ],
     "products/quantity": [],
     "products/variations/quantity": [],
     "products/price": [],
