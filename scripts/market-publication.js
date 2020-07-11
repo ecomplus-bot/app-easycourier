@@ -57,7 +57,6 @@ const req = https.request({
     console.log('Application updated')
   } else {
     console.error(new Error(`API request error with status ${statusCode}`))
-    process.exit(1)
   }
 
   res.on('data', d => {
