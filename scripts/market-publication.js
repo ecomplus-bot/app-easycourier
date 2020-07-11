@@ -61,7 +61,7 @@ const req = https.request({
   }
 
   res.on('data', d => {
-    process.stdout.write(d)
+    console.log(d)
   })
 })
 
